@@ -59,9 +59,9 @@
 }
 
 .geometry:hover{
-	width: 20px;
-	height: 20px;
-	border-radius: 10px;
+	transform: scale(2);
+	 -ms-transform: scale(2);
+  -webkit-transform: scale(2);
 }
 
 #red_round{
@@ -365,6 +365,10 @@
 	background-color: #e4f6d1;
 	color: #6db61e;
 	font-size: 20px;
+}
+
+.transform:hover{
+	transform: scale(1.5);
 }
 
 #close{
